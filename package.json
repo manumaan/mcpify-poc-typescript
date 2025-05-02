@@ -1,0 +1,22 @@
+{
+  "name": "mcpfy-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/eventsource": "^3.0.0",
+    "@types/node": "^22.15.3",
+    "@types/node-fetch": "^2.6.12",
+    "eventsource": "^3.0.6",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.8.3"
+  }
+}
